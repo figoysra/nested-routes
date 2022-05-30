@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import React from "react"
 
 export const Page1 = () =>{
@@ -6,6 +6,7 @@ export const Page1 = () =>{
     <>
       <div>Sub Page</div>
       <Link to="SubPage">Sub Page</Link>
+      <Outlet />
     </>
   )
 }
