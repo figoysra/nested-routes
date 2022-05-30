@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
+import React from "react"
 
 export const Page1 = () =>{
   return(
     <>
-      <div>Back to Home</div>
-      <Link to="/">Click This One</Link>
+      <div>Sub Page</div>
+      <Link to="SubPage">Sub Page</Link>
     </>
   )
 }
